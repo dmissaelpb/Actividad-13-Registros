@@ -10,3 +10,4 @@ public interface IPersonaService {
     public void save(Persona persona);
     public Persona findById (Long id);
 }
+//full
