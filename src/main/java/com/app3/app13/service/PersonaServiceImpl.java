@@ -19,6 +19,7 @@ public class PersonaServiceImpl implements IPersonaService {
         return (List<Persona>) personaDAO.findAll();
     }
 
+
     @Override
     public void save(Persona persona) {
         personaDAO.save(persona);
